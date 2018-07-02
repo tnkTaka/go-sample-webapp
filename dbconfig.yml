@@ -1,0 +1,5 @@
+development:
+  dialect: mysql
+  # test_wantedにテーブルが作成される
+  datasource: root:@/task?charset=utf8&parseTime=True&loc=Local&parseTime=true
+  dir: migrations
