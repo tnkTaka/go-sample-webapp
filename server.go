@@ -16,7 +16,7 @@ func main() {
 
 	/*
 		本来、更新(UPDATE)と削除(DELETE)を行う場は、PUT・DELETEメソッドを使うがHTML5で
-		PUT・DELETEのメソッドがサポートされていないので、このテンプレートではPUTを使う。
+		PUT・DELETEのメソッドがサポートされていないので、このテンプレートではPOSTを使う。
 	*/
 	r.POST("/put", router.PutTask)
 	r.POST("/delete", router.DeleteTask)
